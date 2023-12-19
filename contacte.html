@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte</title>
+
+    <script>
+    function funcion_nom() {
+    var nom = document.getElementById("name").value;
+    alert ('Benvingut ' + nom)
+    }
+
+    function funcion_edad() {
+    var age = document.getElementById("age").value;
+    alert ('Con ' + age + ' ja tindràs el pase del valència. ¿no?')
+    }   
+
+    function funcion_val() {
+    var val = document.getElementById("val").value;
+    alert (val + ' és molt malo, millor Foulquier')
+    }
+
+    
+    function funcion_gmail() {
+    var gmail = document.getElementById("gmail").value;
+    }
+
+    </script>
+
+</head>
+<h1>Contacta amb nosaltres per a anar de viatge a Lapònia</h1>
+<h3>Completa el formulari i entrares en un sorteig per a viatjar amb el valència </h3>
+<body>
+
+Introduïx el teu Nom:  <input type="text" id="name" onblur="funcion_nom()">
+<br>
+<br>
+Introduïx tu Edad: <input type="text" id="age" onchange="funcion_edad()">
+<br>
+<br>
+Introduïx tu Correu: <input type="text" id="gmail" onchange="funcion_gmail()">
+<br>
+<br>
+Introduïx el teu jugador favorit :  <input type="text" id="val" onblur="funcion_val()">
+</body>
+</html>

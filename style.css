@@ -1,0 +1,15 @@
+section.rojo {
+    background-color: red;
+}
+div.nadal {
+    background-color: crimson;
+    border: 1px solid black;
+    display: inline;
+}
+div.bon {
+    width: 30%;
+    height: 110px;
+    background-color: crimson;
+    border: 1px solid black;
+    display: block;
+}
